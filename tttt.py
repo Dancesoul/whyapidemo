@@ -28,8 +28,3 @@ try:
 	print(f"状态码正确 {r.status_code}")
 except AssertionError as e:
 	print(e)
-
-try:
-	assert  1=="1","类型不一致"
-except AssertionError as e:
-	print(e)
