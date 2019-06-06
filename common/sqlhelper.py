@@ -5,12 +5,12 @@ import pymysql
 class whysql():
     def __init__(self):
         self.connect=pymysql.connect(
-            host='192.168.1.117',
-            port=3306,
-            user='admin',
-            password='yuncai88',
-            db='test1',
-            charset='utf8'
+            host='',    #数据库ip
+            port=3306,   #数据口端口号
+            user='',     #数据库用户名
+            password='',    #密码
+            db='',          #数据库名
+            charset='utf8'    #数据库字符集
         )
 
     def gettestdata(self,test_casename=None):
