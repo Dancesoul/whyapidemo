@@ -29,5 +29,5 @@ for key in paradict.keys():
 getr=requests.get(geturl)  #调用http的get请求
 
 print(getr.status_code)  #打印请求状态码
-print(getr.text)      #打印返回内容  字符串格式
-print(getr.json())       #打印返回内容  字典格式
+print(getr.text)      #打印返回内容  
+print(getr.json())       #打印返回内容  json格式
